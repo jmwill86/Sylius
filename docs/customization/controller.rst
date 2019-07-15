@@ -196,7 +196,7 @@ If you still need the methods of the original ``HomepageController``, then copy 
 
 .. tip::
 
-    Run ``$ php bin/console debug:container sylius.controller.shop.homepage`` to check if the class has changed to your implementation.
+    Run ``$ php bin/console debug:container app.controller.shop.homepage`` to check if the class has changed to your implementation.
 
 **3.** Finally you’ll need to add routes in the ``config/routes.yaml``.
 
